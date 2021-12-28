@@ -40,11 +40,13 @@ But you question (when ITM put's vol goes up, its Delta will be like that of OTM
 
 In the graph you can clearly see that for some spot (most ITM), Delta doesnt always move in the same direction when vol changes.
 
+## Some thoughts
+
 And if you go further to the math, you will see that when vol goes up, Delta is no more N(d2). That is, Delta is not the probability that stock price will be within the strike or option being execute. When vol goes to that level everything changes like when you are at light speed, time will stop.
 
 For call, when vol goes to infinitive, **the chance to execute is almost 0!** If you check the N(d2) you will see. But that doesnt mean there is no Delta, because the formula will become approximately S*1 - K*0. How do you interprete this? Well, me I tend to think even there is 0.00000...01 chance to be executed, but when executed, the S will also be infinitve. When you times infinitive small with infinitive large, you obviously need L'Hôpital's rule to solve it.
 
 ## Conclusion: Depends. Delta is not a monotonic function of vol
 
-Regards
+Regards <br>
 Florian
